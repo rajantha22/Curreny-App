@@ -6,7 +6,7 @@ require("dotenv").config();
 const app = express();
 app.use(express.json());
 
-app.get("/details", (req, res, next) => {
+app.get("/", (req, res, next) => {
   //get API details
   res.json({
     Assignmet: "Currency Converter",
