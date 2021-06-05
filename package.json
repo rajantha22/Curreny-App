@@ -1,0 +1,25 @@
+{
+  "name": "surge_global",
+  "version": "1.0.0",
+  "description": "This is an interview assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "test",
+    "interview"
+  ],
+  "author": "Rajantha Obeysekara",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
